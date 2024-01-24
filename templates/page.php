@@ -28,11 +28,11 @@
                     "names" => ["news", "newspost"],
                     "href" => "/news",
                 ],
-                [
+/*                 [
                     "displayname" => "Staff",
                     "names" => "staff",
                     "href" => "/staff",
-                ],
+                ], */
                 [
                     "displayname" => "Contact",
                     "names" => "contact",
@@ -71,7 +71,8 @@
             <a href="https://github.com/farsand-mc">We're Open Source!</a>
         </div>
         <div class="right">
-            <a href="https://bsky.app"><img src="https://cdn.simpleicons.org/bluesky/white" /></a>
+        <a href="https://discord.gg/gdzGYdwgwm"><img src="https://cdn.simpleicons.org/discord/white" /></a>
+            <a href="https://bsky.app/profile/farsand.com"><img src="https://cdn.simpleicons.org/bluesky/white" /></a>
             <a href="https://github.com/farsand-mc"><img src="https://cdn.simpleicons.org/github/white" /></a>
         </div>
     </div>

@@ -1,3 +1,7 @@
+<?php
+Meta::$title = "FARSAND / News";
+Meta::$description = null;
+?>
 <div class="center page">
     <?php
     A_Include("php/news.php");

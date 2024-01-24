@@ -17,6 +17,7 @@ include("php/general.php");
 
 A_Include("php/site.php");
 A_Include("php/sanitize.php");
+A_Include("php/meta.php");
 A_Include("php/db/database.php");
 A_Include("php/db/memcache.php");
 A_Include("frontend_resp.php");
@@ -48,3 +49,6 @@ ob_end_clean();
 
 
 echo $output;
+print_r(Meta::$title);
+echo "<br>";
+print_r(Meta::$description);

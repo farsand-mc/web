@@ -5,6 +5,13 @@ $post = News\GetOne($id);
 
 $post['PostData'] = str_replace("(assets/", "(https://raw.githubusercontent.com/Tanza3D/farsand-news/main/" . $post['InternalName'] . "/assets/", $post['PostData']);
 
+Meta::$title = "FARSAND / " . $post['Name'];
+
+
+$sentence = explode(PHP_EOL, $post['PostData'])[0];
+Meta::$description = $sentence;
+Meta::$banner = "https://raw.githubusercontent.com/farsand-mc/news/main/" . $post['InternalName']  . "/cover.png";
+
 
 $Parsedown = new Parsedown();
 ?>
